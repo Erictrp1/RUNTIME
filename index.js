@@ -13,3 +13,18 @@ if(minute < 10){
 
 
 document.getElementById("heure").innerHTML = heure + ":" + minute;
+
+
+function changeBackground(){
+
+    const images = [
+        'url("images/volcan.jpg")',
+        'url("images/coucher.jpg")',
+    ]
+
+    const section = document.querySelector('section')
+    const bg = images[Math.floor(Math.random() * images.length)];
+    section.style.background= bg;
+}
+
+setInterval(changeBackground, 5000)
