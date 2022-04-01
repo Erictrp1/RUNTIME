@@ -10,18 +10,22 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    align-items: center;
+    color: #fff;
+    background: url(../images/plage.jpg);
 }
 
-section {
-    background: url(../images/plage.jpg)
+.coment {
+    position: absolute;
+    top: 10%;
+    padding-left: 10%;
+    font-size: 1.8rem;
 }
 
 .info {
-    color: #fff;
+    position: absolute;
+    bottom: 15%;
     padding-left: 10%;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: 'Josefin Sans', sans-serif;
 }
 
