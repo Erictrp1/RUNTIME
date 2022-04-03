@@ -24,6 +24,15 @@ setInterval(function(){
 }, 1000);
 
 
+//COMENT
+function changeComent(){
+    var opinion = document.querySelector("#opinion");
+    opinion.innerHTML = '"Les montagne les plus spectaculaires y côtoient les plages<br>tropicales, des gorges, des falaises, des cascades noyées<br>dans une nature totalement exubérante"';
+}
+
+document.querySelector("#bouton").addEventListener("click", changeComent);
+
+
 //CHANGEMENT DE BACKGROUND
 function changeBackground(){
     const images = [
