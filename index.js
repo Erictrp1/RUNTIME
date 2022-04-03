@@ -1,8 +1,12 @@
 //HEURE
 var dateGlobale = new Date();
 
+var temps = document.getElementById("heure");
+
+var dateGlobale = new Date();
 var heure = dateGlobale.getHours();
 var minute = dateGlobale.getMinutes();
+temps.innerHTML = heure + ":" + minute;
 
 if(heure < 10){
     heure = "0" + heure;
@@ -12,7 +16,12 @@ if(minute < 10){
     minute = "0" + minute;
 }
 
-document.getElementById("heure").innerHTML = heure + ":" + minute;
+setInterval(function(){
+    var dateGlobale = new Date();
+    var heure = dateGlobale.getHours();
+    var minute = dateGlobale.getMinutes();
+    temps.innerHTML = heure + ":" + minute;
+}, 1000);
 
 
 //CHANGEMENT DE BACKGROUND
