@@ -36,9 +36,9 @@ document.querySelector("#bouton").addEventListener("click", changeComent);
 //CHANGEMENT DE BACKGROUND
 function changeBackground(){
     const images = [
-        'url("images/volcan.jpg")',
-        'url("images/coucher.jpg")',
-        'url("images/plage.jpg")',
+        'url("images/paris2.jpg")',
+        'url("images/roue.jpg")',
+        'url("images/pont.jpg")',
     ]
 
     const section = document.querySelector('section')
