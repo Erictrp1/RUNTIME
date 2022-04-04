@@ -54,12 +54,19 @@
     animation: apparition 0.8s 0.9s ease-out forwards;
     cursor: pointer;
     transition: ease-out 0.8s;
-    outline: none;
     border-radius: 50px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .home_btn:hover {
     box-shadow: inset 300px 0 0 0 rgb(24, 24, 24);
     cursor: pointer;
     background: #151515;
     color: white;
+}
+@media(max-width: 990px){
+    .home_btn{
+        position: absolute;
+        bottom: 5%;
+        left: 10%;
+    }
 }
