@@ -41,3 +41,25 @@
 #heure { 
     font-size: 15rem!important;
 }
+
+.home_btn {
+    background-color: #FEFEFE;
+    color: #151515;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    bottom: 25%;
+    right: 10%;
+    animation: apparition 0.8s 0.9s ease-out forwards;
+    cursor: pointer;
+    transition: ease-out 0.8s;
+    outline: none;
+    border-radius: 50px;
+}
+.home_btn:hover {
+    box-shadow: inset 300px 0 0 0 rgb(24, 24, 24);
+    cursor: pointer;
+    background: #151515;
+    color: white;
+}
