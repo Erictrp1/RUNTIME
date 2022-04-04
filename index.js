@@ -27,7 +27,7 @@ setInterval(function(){
 //COMENT
 function changeComent(){
     var opinion = document.querySelector("#opinion");
-    opinion.innerHTML = '"Les montagne les plus spectaculaires y côtoient les plages<br>tropicales, des gorges, des falaises, des cascades noyées<br>dans une nature totalement exubérante"';
+    opinion.innerHTML = '"Chaque année, escapade dans notre belle capitale.<br>A chaque balade, je fais de nouvelles découvertes, on peut<br>visiter sans faire d\'énormes dépenses si l\'on veut bien marcher."';
 }
 
 document.querySelector("#bouton").addEventListener("click", changeComent);
