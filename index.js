@@ -25,19 +25,20 @@ if(minute < 10){
 }
 
 
-//CHANGE TEXT BY CURRENT TIME
-function changeNightDay(){
-    var nightday = document.querySelector('#nightday');
+//CHANGE TEXT AND IMAGE BY CURRENT TIME
+var nightday = document.querySelector('#nightday');
+var sunOrMoon = document.querySelector('#sun');
     
-}
-
 if(heure > 12){
     nightday.innerHTML = 'GOOD AFTERNOON';
+    sunOrMoon.innerHTML = '<i class="fa-solid fa-sun"></i>';
 }else{
     nightday.innerHTML = 'GOOD MORNING';
+    sunOrMoon.innerHTML = '<i class="fa-solid fa-sun"></i>';
 }
 if(heure > 15){
     nightday.innerHTML = 'GOOD EVENING';
+    sunOrMoon.innerHTML = '<i class="fa-solid fa-moon"></i>';
 }
 
 
