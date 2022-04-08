@@ -54,8 +54,8 @@ document.querySelector("#bouton").addEventListener("click", changeComent);
 //AUTOCHANGE-BACKGROUND
 function changeBackground(){
     const images = [
-        'url("images/paris2.jpg")',
-        'url("images/roue.jpg")',
+        'linear-gradient(to bottom, transparent, black), url("images/paris2.jpg")',
+        'linear-gradient(to bottom, transparent, black), url("images/roue.jpg")',
     ]
 
     const section = document.querySelector('section');

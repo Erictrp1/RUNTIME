@@ -12,7 +12,7 @@
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
-    background: url(../images/pont.jpg);
+    background:linear-gradient(to bottom, transparent, black), url(../images/pont.jpg);
 }
 
 #coment {
